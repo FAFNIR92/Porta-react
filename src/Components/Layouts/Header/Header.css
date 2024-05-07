@@ -1,0 +1,82 @@
+header {
+    background-color: #39a900;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: white;
+}
+
+.image-profile{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50rem;
+    object-fit: cover;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+.line{
+    width: 80%;
+    border: solid 3px white;
+}
+
+.a{
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+    color: #c1ff95;
+    text-shadow: 0px 0px 1px
+                ,1px 4px 1px #49da00;
+    letter-spacing: 1px;
+    position: relative;
+    top: 4rem;
+}
+
+.image-sena-header{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 50rem;
+    object-fit: cover;
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0px 0px 3px rgb(43, 42, 42);
+    position: relative;
+    top: 7rem;
+}
+
+.icon{
+    background-color: #222;
+    display: flex;
+    width: auto;
+    height: 4rem;
+    gap: 2.5rem;
+    padding: 7px 1.3rem 0px 1.3rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 14rem;
+}
+.icon :hover{
+    color: #39a900;
+}
+
+.socialNetwork{
+    color: white;
+    font-size: 3rem;
+}
